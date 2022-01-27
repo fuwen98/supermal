@@ -1,8 +1,6 @@
 <template>
   <div class="tab-bar-item" @click="itemclick">
     <div :style="activeStyle  "><slot name="item-text"></slot></div>
-
-    <!-- <div>首页</div> -->
   </div>
 </template>
 
