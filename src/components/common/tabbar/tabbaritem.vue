@@ -20,6 +20,7 @@ export default defineComponent({
       default:'red'
     }
   },
+  
   methods: {
     itemclick() {
       this.$router.replace(this.path).catch((error)=>{});
